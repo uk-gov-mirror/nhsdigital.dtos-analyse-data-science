@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kc63_preprocessing"
+version = "0.1.0"
+description = "KC63 preprocessing utilities"
+authors = ["samw-nhs <172405776+samw-nhs@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "reporting_period" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pandas = "^2.2.3"
+regex = "^2024.11.0"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
